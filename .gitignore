@@ -1,1 +1,5 @@
 *.swp
+*.log
+*.tmp
+*.data
+.DS_Store
