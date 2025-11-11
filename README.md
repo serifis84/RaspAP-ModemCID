@@ -9,7 +9,7 @@ A custom RaspAP plugin that displays live logs from `modem-cid.service` (a Calle
 - Simple RaspAP integration with Font Awesome icon
 
 ## Installation
-1. Copy this folder to `/var/www/html/plugins/ModemCID/`
-2. Restart your webserver:
-   ```bash
-   sudo systemctl restart lighttpd
+cd /var/www/html/plugins
+sudo git clone https://github.com/serifis84/RaspAP-ModemCID.git
+sudo mv RaspAP-ModemCID ModemCID
+sudo systemctl restart lighttpd
